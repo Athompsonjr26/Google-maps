@@ -1,0 +1,45 @@
+#map {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+​
+.sidebar {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background-color: #F0EEEE;
+  float: right;
+  margin-left: 80%;
+  text-align: center;
+  overflow: auto;
+  font-family: 'Quicksand', sans-serif;
+  border-left: 1px solid black;
+}
+​
+h3 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px 2px grey;
+}
+​
+li {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+​
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  margin-bottom: -8px;
+  text-shadow: 2px 2px 2px grey;
+}
+​
+.icon {
+  height: 20%;
+  width: 20%;
+  max-width: 300px;
+  max-height: 300px;
+  margin-bottom: -5px;
+}
