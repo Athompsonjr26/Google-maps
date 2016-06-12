@@ -15,7 +15,7 @@
     </head>
   <body  ng-app="weatherApp" ng-controller= "MainController">
     <div id="map"></div>
-    <div class="sidebar" ng-click="openWindow()">
+    <div class="sideBar" ng-click="openWindow()">
       <div ng-repeat="result in results"><h4>{{result.name}}</h4><img class="icon" ng-src="http://openweathermap.org/img/w/{{result.weather[0].icon}}.png"><br>{{result.weather[0].description}}<br>Temp: {{result.main.temp}}°<br>Humidity: {{result.main.humidity}}%<br>-----------------------<br></div>
     </div>
   </body>

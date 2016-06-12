@@ -4,8 +4,8 @@
   height: 100%;
   float: left;
 }
-​
-.sidebar {
+
+.sideBar {
   position: absolute;
   width: 20%;
   height: 100%;
@@ -17,13 +17,13 @@
   font-family: 'Quicksand', sans-serif;
   border-left: 1px solid black;
 }
-​
+
 h3 {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   text-shadow: 2px 2px 2px grey;
 }
-​
+
 li {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
